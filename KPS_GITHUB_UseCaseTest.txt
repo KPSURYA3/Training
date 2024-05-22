@@ -1,0 +1,76 @@
+DOCUMENTATION   FOR   GITHUB PROJECT
+
+In this GITHUB, we are creating new repository, the repository name was UseCase .
+In this respository , we are creating some branches . The branches are main(master) , Develop , Feature , QA , Release .
+ 
+
+Next we are going to open local repository , inside local repo will open command prompt . In command prompt , we are type the git command . 
+ 
+
+So First typing git command was , 
+git pull   ----  This command is used to fetch the changes from a remote repository (in this case, GitHub) and merge them into your current branch. It also lists any new branches that were found on the remote repository.
+
+git checkout Develop ----  This command switches your local repository to the Develop branch.
+
+Next In local repo ,we are creating new file (Its like coding file) ,the file name was Document.
+
+ 
+
+And next add the file into remote repo.
+
+git add . ---- This command stages all the changes in the current directory for the next commit.
+
+ git commit -m "Developer push the file"  ---- This command records the changes staged for the commit with a message describing the changes.
+
+ git push  ----  This command records the changes staged for the commit with a message describing the changes.
+
+     
+
+Now all the files are pushed into features branch . In this push , there are some conditions . The conditions are  rebase or pull request .
+ First click the pull request option , then click new pull request , now change base and compare branch. so base --- Feature branch , compare --- Develop . 
+      
+Next click create pull request and  if you want reviewers then you will click reviewer and select some reviewers.
+If you select reviewers , the reviews are give some comments or approval . Next you can merge ,you will click merge pull request or the reviewers are merged . 
+      
+ 
+
+And successfully merged pull request to Feature branch . 
+  
+ 
+Now  we are saw the document file in Feature branch.
+ 
+Next same steps are followed , Feature branch to QA branch .
+Now all the files are pushed into QA branch . In this push , there are some conditions . The conditions are  rebase or pull request .
+ First click the pull request option , then click new pull request , now change base and compare branch. so base --- QA branch , compare --- Feature . 
+	
+ 
+
+Next click create pull request and  if you want reviewers then you will click reviewer and select some reviewers.
+If you select reviewers , the reviews are give some comments or approval . Next you can merge ,you will click merge pull request or the reviewers are merged . 
+ 
+And successfully merged pull request to Feature branch . 
+ 
+Now  we are saw the document file in Feature branch.
+ 
+
+Next step the QA team successfully verified , then the QA branch push into Release branch .
+We are follow condition , the condition is it accepts pull request some specific people . 
+ 
+Now Successfully merged  to Release branch.
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
