@@ -1,0 +1,14 @@
+schema {
+	query : Query
+}
+
+type Query {
+	getAll : [Books]
+}
+
+type Books {
+	b_id : ID!
+	b_name : String!
+	describtion : String!
+	price : Float!
+}
