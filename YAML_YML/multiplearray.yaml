@@ -1,0 +1,18 @@
+All courses:
+    courses:
+        - course:
+            - Fullstack:
+                - frontend: 
+                    html: HTML5
+                    css: CSS3
+                - backend:
+                    java: JAVA 21
+                    python: PYTHON 3.9
+                - Databse:
+                    mysql: 8.0
+            - Testing:
+                - Manual:
+                    Jira: 10
+                - Automation:
+                    selenium: 5 
+                    Robot framework: 7.1 
