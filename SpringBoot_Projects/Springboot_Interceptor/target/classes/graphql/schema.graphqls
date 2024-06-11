@@ -1,0 +1,26 @@
+schema
+{
+	query:Query
+
+}
+
+type Query
+{
+	getDressdetails: [Dressdto]
+	getById(dressId:Int!) :Dressdto
+}
+
+type Dressdto
+{
+	dressId:Int!
+	dressQuantity:Int!
+	dressPrice:Int!
+	brandDto :Branddto!
+}
+
+type Branddto
+{
+	brandId:Int!
+	brandName:String!
+	country:String!
+}
